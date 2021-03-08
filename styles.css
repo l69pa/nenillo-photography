@@ -68,9 +68,9 @@ body {
   display: grid;
   height: 100%;
   width: 100%;
-  padding: 3rem 5rem 3rem 5rem;
+  padding: 2rem 5rem 2rem 5rem;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   grid-gap: 20px;
 }
 
@@ -99,32 +99,34 @@ body {
   grid-row: span 2;
 }
 #item2 {
-  grid-column: span 3;
-}
-#item3 {
-  grid-column: span 2;
-}
-#item4 {
-  grid-column: span 2;
-  grid-row: span 2;
-}
-#item5 {
-  grid-column: span 5;
-  grid-row: span 2;
-}
-#item6 {
-  grid-column: span 3;
-}
-#item7 {
-  grid-column: span 2;
-  grid-row: span 1;
-}
-#item8 {
   grid-column: span 4;
   grid-row: span 1;
 }
-#item9 {
+#item3 {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+#item4 {
+  grid-column: span 7;
+  grid-row: span 1;
+}
+#item5 {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+#item6 {
   grid-column: span 2;
+}
+#item7 {
+  grid-column: span 4;
+  grid-row: span 1;
+}
+#item8 {
+  grid-column: span 3;
+  grid-row: span 1;
+}
+#item9 {
+  grid-column: span 3;
 }
 #item10 {
   grid-column: span 4;
@@ -246,6 +248,7 @@ body {
   width: 5rem;
   margin: 1rem;
   border: 2px solid #444;
+  cursor: pointer;
 }
 
 /* Footer */
