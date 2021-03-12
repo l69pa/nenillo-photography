@@ -6,6 +6,10 @@
   /* outline: 1px solid red; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgba(238, 238, 238, 0.8);
   text-align: center;
@@ -140,6 +144,10 @@ body {
 
 /* Services section */
 
+.services p {
+  font-size: 1.3rem;
+}
+
 .services-list {
   margin: 2rem 0 2rem 0;
   padding: 2rem;
@@ -200,7 +208,7 @@ body {
 /* Contact section */
 
 .contact-header p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .form-container {
@@ -224,8 +232,8 @@ body {
 }
 
 .label {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 400;
   padding: 1rem 0 1rem 0;
 }
 
@@ -263,6 +271,7 @@ body {
   z-index: 100;
   position: fixed;
   display: none;
+  transition: 0.3s;
 }
 
 .modal-content {
@@ -349,7 +358,7 @@ body {
   }
 
   .close {
-    top: -3rem;
+    top: -2rem;
     text-align: center;
   }
 }
