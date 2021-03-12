@@ -2,6 +2,8 @@
 
 A photographer website (not actual photographer) to display my skills.
 
+Visit the page at https://nenillophotography.netlify.app/
+
 The purpose of this website is to display my current coding skills.
 The technologies used in this project include **HTML, CSS** and **JavaScript**.
 
