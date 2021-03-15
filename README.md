@@ -17,3 +17,4 @@ Photos are from **Unsplash.com**.
 - Implementing a Lightbox feature (image pop up).
 - Using version control with Git and Github through VS Code extension. (Not terminal commands)
 - Contact form doesn't send anything on purpose.
+- Made a back-to-top button.
