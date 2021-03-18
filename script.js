@@ -7,6 +7,8 @@ const lightbox = document.getElementById("lightbox");
 const closeBtn = document.querySelector(".close");
 const modal = document.querySelector(".modal-content");
 
+const form = document.getElementById("form");
+
 const backToTopBtn = document.querySelector(".back-to-top");
 const rootElement = document.documentElement;
 const scrollTarget = document.querySelector(".contact");
@@ -52,6 +54,9 @@ previews.forEach((preview) => {
 closeBtn.addEventListener("click", closeModal);
 lightbox.addEventListener("click", closeModal);
 
+// Prevent submit
+
+form.addEventListener("submit", (e) => e.preventDefault());
 // Back to top button
 
 backToTopBtn.addEventListener("click", scrollToTop);

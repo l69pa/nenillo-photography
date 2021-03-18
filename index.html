@@ -20,13 +20,13 @@
     <div class="header">
       <h1 class="title">Nenillo Photography</h1>
     </div>
-    <div class="navbar">
-      <div class="link-wrapper">
-        <a href="#portfolio" class="nav-link">Portfolio</a>
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#contact" class="nav-link">Contact</a>
+      <div class="navbar">
+        <div class="link-wrapper">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
       </div>
-    </div>
 
 <!-- Portfolio -->
 
@@ -138,13 +138,14 @@
         <p>Contact me with the form below</p>
       </div>
       <div class="form-container">
-        <form>
+        <form id="form" action="/" method="GET">
           <label class="label" for="name">Name</label>
           <input
             id="name"
             type="text"
             class="input"
             placeholder="Enter your name"
+            required
           />
           <label class="label" for="email">Email</label>
           <input
@@ -152,19 +153,28 @@
             type="email"
             class="input"
             placeholder="john.doe@example.com"
+            required
           />
           <label class="label" for="message">Message</label>
           <textarea
             id="message"
             class="textarea"
             placeholder="Type your message"
+            required
           ></textarea>
           <input type="submit" class="submit" value="Send" />
         </form>
       </div>
     </section>
     <footer class="footer">
-      <p class="description">&copy Nenillo Photography</p>
+      <div class="link-wrapper">
+        <a href="#portfolio" class="nav-link footer-link">Portfolio</a>
+        <a href="#services" class="nav-link footer-link">Services</a>
+        <a href="#contact" class="nav-link footer-link">Contact</a>
+      </div>
+      <div>
+        <p class="description">&copy 2021 Nenillo Photography</p>
+      </div>
     </footer>
 
 <!-- Lightbox -->
@@ -175,8 +185,7 @@
     </div>
 
     <!-- Back to top button -->
-
-    <button class="back-to-top">&#11121;</button>
+      <img class="back-to-top" src="images/back-to-top-arrow.svg" alt="arrow to top">
   
   </body>
 </html>
